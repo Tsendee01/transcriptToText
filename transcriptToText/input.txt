@@ -1,0 +1,264 @@
+# tactiq.io free youtube transcript
+# These CSS PRO Tips & Tricks Will Blow Your Mind!
+# https://www.youtube.com/watch/PL3Odw-k8W4
+
+00:00:00.080 tip number one did you know that you can
+00:00:02.000 actually allow the users to control the
+00:00:03.719 height and width of your Elements by
+00:00:05.400 using the resize property in CSS you can
+00:00:07.600 allow the user to resize the HTML
+00:00:09.360 element vertically horizontally or both
+00:00:12.240 at the same time this will work for
+00:00:14.120 every element that has an overflow of
+00:00:16.000 any other than visible for example
+00:00:17.840 overflow hidden have you ever seen these
+00:00:20.279 clean designs with the HTML elements
+00:00:22.000 look super smooth and have this
+00:00:23.320 levitating effect this is called
+00:00:25.480 neumorphism and can be achieved with a
+00:00:27.599 very easy CSS trick we give our element
+00:00:30.320 a hover effect and simply add a box
+00:00:32.360 Shadow make sure that the background is
+00:00:34.399 not completely white and instead a very
+00:00:36.360 light gray because now we add another
+00:00:38.320 box Shadow with a comma this Shadow is
+00:00:40.360 using negative values for the X and Y
+00:00:42.320 coordinates to cast The Shadow on the
+00:00:44.000 top left corner of the element and the
+00:00:45.760 Shadow's color is white this will look
+00:00:48.320 like a source of light coming from the
+00:00:49.760 top left corner creating this clean
+00:00:51.360 realistic effect we could also create
+00:00:53.680 the exact opposite effect and make it
+00:00:55.480 look like the element is carved into the
+00:00:57.399 website just use the keyword inset after
+00:01:00.600 each Shadow and there you go of course
+00:01:03.199 this effect will work with every color
+00:01:04.799 pette that you have in mind just make
+00:01:06.200 the top left Shadow slightly brighter
+00:01:07.720 than the background color did you know
+00:01:09.320 that in many cases you don't need
+00:01:10.880 JavaScript to create user interactive
+00:01:12.560 elements simple buttons or drop- down
+00:01:14.799 Menus can be achieved in CSS only if you
+00:01:17.400 know a little trick that involves using
+00:01:19.000 checkboxes since labels and checkboxes
+00:01:21.479 can be connected using the four
+00:01:22.680 attribute you already have the
+00:01:24.240 foundation of your button now you can
+00:01:25.880 use the checked studo class on your
+00:01:27.680 checkbox to check if the label was
+00:01:29.560 clicked or not so this works like a
+00:01:31.600 simple JavaScript event listener but
+00:01:33.280 only in CSS because now you can show and
+00:01:35.520 hide other HTML elements depending on
+00:01:37.479 the state of the checkbox and the last
+00:01:39.799 thing to do is to hide the checkbox with
+00:01:41.439 a display none so no one will ever
+00:01:43.200 notice you can see this trick being used
+00:01:45.520 in our CSS only navigation bar tutorial
+00:01:47.920 to open and close the sidebar when you
+00:01:50.159 want to make any type of container
+00:01:51.719 responsive you most likely end up
+00:01:53.240 changing the width so that a big
+00:01:54.840 container fits properly on a small
+00:01:56.560 smartphone screen then you probably have
+00:01:58.759 your preferred width of a 800 pixels and
+00:02:00.920 a Max width of 90% so the container will
+00:02:03.479 never be too big for the screen in this
+00:02:05.719 case you can actually use a function
+00:02:07.159 called Min to turn this two lines of
+00:02:09.280 code in one line of code the Min
+00:02:11.360 function always returns the smaller
+00:02:13.120 value which means on desktop devices 800
+00:02:15.720 pixels is smaller than 90% so 800 pixels
+00:02:18.800 is going to be the width but on smaller
+00:02:21.239 screens we reach a point where 90% of
+00:02:23.400 the screen is actually smaller than 800
+00:02:25.400 pixels so 90% will be returned and 90%
+00:02:28.640 is the width of the container very
+00:02:30.760 simple the same thing works for minimum
+00:02:33.080 sizes by using the max function this
+00:02:35.160 function will always return the bigger
+00:02:36.720 value creating a short hand for the
+00:02:38.239 minwidth property and since you have to
+00:02:40.319 set up width minwidth and Max width for
+00:02:42.560 every element that needs to be
+00:02:43.760 responsive CSS introduced the clamp
+00:02:46.080 function that combines all three of them
+00:02:48.200 in one line of code tip number five
+00:02:50.959 glass morphism if you ever wondered how
+00:02:53.319 you can make your website more unique
+00:02:55.080 consider using glass-like elements on
+00:02:56.840 your website they are definitely an
+00:02:58.720 eye-catcher or all you need is an
+00:03:00.519 element that has a somewhat transparent
+00:03:02.200 background color now you can use the
+00:03:04.040 backdrop property to control how the
+00:03:06.200 elements behind the current element
+00:03:08.040 should be rendered here you apply the
+00:03:09.799 blur function and provide a value of
+00:03:11.879 let's say 10 pixels this will create a
+00:03:14.080 blur effect on the element which will
+00:03:15.599 look like glass of course this effect
+00:03:18.280 only works for elements that are in
+00:03:19.760 front of something else if you don't
+00:03:21.599 have a background image or anything like
+00:03:23.280 that then of course no one will see the
+00:03:25.120 effect you can experiment with the blur
+00:03:27.519 amount to control the thickness of the
+00:03:29.000 glass and try to use borders and shadows
+00:03:31.200 to make it look even more realistic you
+00:03:33.400 probably know that writing good CSS code
+00:03:35.360 is all about figuring out by what logic
+00:03:37.360 you want to select HTML elements and
+00:03:39.319 then style them you're going to use many
+00:03:41.400 selectors combinators and SoDo classes
+00:03:43.519 to define the roots for your web design
+00:03:45.360 and when doing that you should
+00:03:46.599 definitely hear about the not and Haso
+00:03:49.159 classes as they completely change the
+00:03:51.360 game forever the Noto class is able to
+00:03:54.319 exclude elements from the selector in
+00:03:56.239 this example I want to style all the
+00:03:57.879 buttons but not the first one so to
+00:04:00.040 right button the not selector and in the
+00:04:02.360 parenthesis I say first child now every
+00:04:05.400 button will be affected except the first
+00:04:07.239 one the has selector is a cool way to
+00:04:09.480 select an element based on the presence
+00:04:11.120 of other elements it's often used as a
+00:04:13.319 parent selector which was not possible
+00:04:15.120 before in this example I want to style
+00:04:17.320 all the buttons the same way to have a
+00:04:19.040 clean and consistent design but some
+00:04:20.839 buttons have an icon inside and need a
+00:04:22.919 little more styling now I could give
+00:04:25.120 this button a class but then I need to
+00:04:26.960 do that for every icon button in the
+00:04:28.520 future much easier would be to do that
+00:04:30.520 in CSS only by addressing all the
+00:04:32.400 buttons that have an SVG as a child
+00:04:34.120 element to do that I write button has
+00:04:37.680 SVG now only the buttons within SVG will
+00:04:40.680 be styled a more complex case for the
+00:04:43.080 selector would be to create a dark mode
+00:04:44.960 option in CSS only let's say we have a
+00:04:47.800 drop- down menu for the light and dark
+00:04:49.560 theme in CSS I apply the stes on the
+00:04:52.120 body that has an option with the value
+00:04:55.479 dark then we check if this form element
+00:04:57.880 is checked using the checked s class I
+00:05:00.080 showed you earlier for the body where
+00:05:01.720 this is the case I override the
+00:05:03.080 variables for the color plette to be
+00:05:04.600 dark on Modern websites we see more and
+00:05:06.960 more creative ways to make text look
+00:05:08.560 more interesting one thing that I like a
+00:05:10.360 lot is putting gradients on text if you
+00:05:12.600 ever tried doing this then you probably
+00:05:14.240 notice that it is not possible to use
+00:05:15.919 the linear gradient method on the color
+00:05:17.600 property it just won't work the trick is
+00:05:20.280 to apply the gradient on the background
+00:05:21.960 of the element now we can limit the
+00:05:24.199 background painting area using
+00:05:26.039 background clip text this means the
+00:05:28.759 background will only be where there is
+00:05:30.520 text last thing to do is to make the
+00:05:32.720 color transparent now we can only see
+00:05:35.000 the background color which is our
+00:05:36.319 gradient pretty
+00:05:38.039 cool when building a complex drop- down
+00:05:40.520 menu you would probably use JavaScript
+00:05:42.360 to show and hide your elements but you
+00:05:44.199 might be surprised how much you can do
+00:05:45.680 with plain CSS as a start you would
+00:05:47.919 probably use the focus sudo class which
+00:05:49.919 is applied to the element when you click
+00:05:51.360 on a button or any type of form element
+00:05:53.840 using that will enable you to hide and
+00:05:55.600 show elements on click this will work
+00:05:57.840 great until you run into this annoying
+00:05:59.720 problem when you click on an item inside
+00:06:01.639 the drop down the button will lose its
+00:06:03.600 focus and the elements Disappear by now
+00:06:06.039 most people will probably reach for
+00:06:07.240 JavaScript however you can use another
+00:06:09.280 pseudo class which is called Focus
+00:06:11.160 within this pseudo class will detect the
+00:06:13.280 focus on child elements and will spare a
+00:06:15.199 lot of work in JavaScript because now we
+00:06:17.120 can actually click on the element inside
+00:06:18.639 the dropdown and it will work perfectly
+00:06:21.080 when you have a website where you want
+00:06:22.400 to number your headings you can do the
+00:06:24.039 hard work and hardcode it into every
+00:06:25.800 single heading but what if you are
+00:06:27.400 loading the headings from a database the
+00:06:29.599 then you can't really do that instead
+00:06:31.759 just create a counter variable in CSS in
+00:06:34.120 the root you create your counter using
+00:06:36.080 counter reset and give it any name now
+00:06:38.840 the moment your counter should be
+00:06:40.160 incremented you address the element and
+00:06:42.000 use the counter increment property now
+00:06:44.120 you add a before element to the headings
+00:06:46.080 and its content is going to be the
+00:06:47.680 counter headings now you can apply a
+00:06:50.240 little bit of styling in the before
+00:06:51.599 element and the headings are numbered
+00:06:53.720 perfectly if you ever try to create a
+00:06:55.840 swiper where every card should slide
+00:06:57.680 perfectly into place then you need to
+00:06:59.319 hear this trick normally when creating a
+00:07:01.639 scrollable container everything is very
+00:07:03.440 linear and very bad for the user
+00:07:05.120 experience we don't want the user to be
+00:07:07.120 stuck in between two cards instead we
+00:07:09.120 want the cards to behave like a magnet
+00:07:10.800 that sticks perfectly on the edge
+00:07:12.680 there's always only one card being
+00:07:14.360 displayed and in general the swiper FS
+00:07:16.639 very smooth how did I do that well in
+00:07:19.160 HTML I have a wrapper with five cards
+00:07:21.720 each card has a heading a Tex paragraph
+00:07:24.160 and some very basic Styles in CSS the
+00:07:26.759 only important thing is that the wrapper
+00:07:28.520 is exactly the same size is one card so
+00:07:31.240 only one card can be displayed at a time
+00:07:33.520 and we have an overflow ax of scroll so
+00:07:35.800 we can't see the other cards and we have
+00:07:37.479 to scroll this is basically the
+00:07:39.520 foundation of every swiper now having
+00:07:42.039 only that the scrolling will be very
+00:07:43.720 linear and boring to have it smoother we
+00:07:46.000 need to specify its scroll snap type
+00:07:48.800 this is a CSS property that you apply on
+00:07:50.639 the parent element we are scrolling
+00:07:52.360 horizontally so the first value is going
+00:07:54.159 to be X this is for the xaxis if you
+00:07:57.759 have a container that Scrolls vertically
+00:07:59.759 you would use Y for the y- AIS the
+00:08:02.639 second value is the actual scroll snap
+00:08:04.479 type we want this to be mandatory now we
+00:08:07.360 have to Define where we want to snap for
+00:08:09.759 that we have to address the card's
+00:08:11.039 scroll snap align property this one can
+00:08:13.120 have the values Start Center or end for
+00:08:15.960 us it doesn't matter which one we choose
+00:08:17.720 since the cards are exactly the same
+00:08:19.400 size as the wrapper they will always
+00:08:20.960 snap perfectly so I just say Center and
+00:08:23.960 now when we use the Swiper the cards
+00:08:25.680 will snap perfectly mandatory is not the
+00:08:28.720 only snap type you could also use
+00:08:30.680 proximity then it will only snap when we
+00:08:32.958 are close to the edge which means it can
+00:08:35.200 also snap back if we don't scroll hard
+00:08:37.599 enough this was coding to go and if you
+00:08:40.159 have a cool CSS trick to share write it
+00:08:42.000 in the comments for others to see also
+00:08:43.799 watch this video right here to learn
+00:08:45.080 more about web development or coding in
+00:08:46.640 general
